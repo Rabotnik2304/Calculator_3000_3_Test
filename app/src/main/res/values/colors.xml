@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#C20D00</color>
+    <color name="colorPrimaryDark">#B7BDBD</color>
+    <color name="designActivityMainWindowColor">#333</color>
+    <color name="colorText">#FFFFFFFF</color>
+    <color name="colorTextHint">#B3979797</color>
+    <color name="colorEnterTaskButton">#6F6E6E</color>
+    <color name="colorTaskBackgroundTint">#DBD5D5</color>
+    <color name="colorActionButtons">#0491BC</color>
+    <color name="colorDelButtons">#BD7100</color>
+</resources>
