@@ -18,7 +18,7 @@
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textColor="@color/colorText"
-            android:textSize="40sp"
+            android:textSize="90sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,27 +31,24 @@
     <TableRow>
         <EditText
             android:id="@+id/calculator_task"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-
-            android:layout_weight="0.5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="0.75"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="4dp"
-            android:layout_padding = "0dp"
             android:background="@color/colorTaskBackgroundTint"
             android:hint="@string/task_hint"
             android:inputType="text"
             android:textColor="@color/colorText"
             android:textColorHint="@color/colorTextHint"
-            android:textSize="30sp"/>
+            android:textSize="40sp"/>
 
         <Button
             android:id="@+id/button_enter_task"
             android:layout_width="0dp"
-            android:layout_height="58dp"
+            android:layout_height="108dp"
             android:layout_weight="0.25"
             android:layout_marginRight="4dp"
-            android:layout_padding = "0dp"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_task_button"
             android:textColor="@color/colorText"
@@ -63,7 +60,7 @@
             android:id="@+id/button_1"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_1_button"
@@ -73,7 +70,7 @@
             android:id="@+id/button_2"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_2_button"
@@ -83,7 +80,7 @@
             android:id="@+id/button_3"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_3_button"
@@ -93,7 +90,7 @@
             android:id="@+id/button_plus"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorActionButtons"
             android:text="@string/enter_plus_button"
@@ -106,7 +103,7 @@
             android:id="@+id/button_4"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_4_button"
@@ -116,7 +113,7 @@
             android:id="@+id/button_5"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_5_button"
@@ -126,7 +123,7 @@
             android:id="@+id/button_6"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_6_button"
@@ -136,7 +133,7 @@
             android:id="@+id/button_minus"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorActionButtons"
             android:text="@string/enter_minus_button"
@@ -149,7 +146,7 @@
             android:id="@+id/button_7"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_7_button"
@@ -159,7 +156,7 @@
             android:id="@+id/button_8"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_8_button"
@@ -169,7 +166,7 @@
             android:id="@+id/button_9"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_9_button"
@@ -179,7 +176,7 @@
             android:id="@+id/button_multiply"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorActionButtons"
             android:text="@string/enter_multiply_button"
@@ -187,46 +184,52 @@
             app:cornerRadius="0dp"/>
     </TableRow>
 
-    <TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
         <Button
             android:id="@+id/button_DelAll"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorDelButtons"
             android:text="@string/enter_del_all_button"
             android:textColor="@color/colorText"
-            app:cornerRadius="0dp"/>
+            app:cornerRadius="0dp" />
+
         <Button
             android:id="@+id/button_0"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="@string/enter_0_button"
             android:textColor="@color/colorText"
-            app:cornerRadius="0dp"/>
+            app:cornerRadius="0dp" />
+
         <Button
             android:id="@+id/button_Del"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorDelButtons"
             android:text="@string/enter_del_button"
             android:textColor="@color/colorText"
-            app:cornerRadius="0dp"/>
+            app:cornerRadius="0dp" />
+
         <Button
             android:id="@+id/button_div"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="48dp"
+            android:layout_height="94dp"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorActionButtons"
             android:text="@string/enter_div_button"
             android:textColor="@color/colorText"
-            app:cornerRadius="0dp"/>
+            app:cornerRadius="0dp" />
     </TableRow>
 </TableLayout>
