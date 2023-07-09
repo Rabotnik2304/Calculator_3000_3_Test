@@ -3,23 +3,8 @@
     <string name="logo">Calculator 3000</string>
     <string name="task_hint">Enter your Task</string>
 
-    <string name="enter_task_button">=</string>
-    <string name="enter_plus_button">+</string>
-    <string name="enter_minus_button">-</string>
-    <string name="enter_multiply_button">*</string>
-    <string name="enter_div_button">:</string>
-
     <string name="enter_del_button">Del</string>
     <string name="enter_del_all_button">Del All</string>
 
-    <string name="enter_1_button">1</string>
-    <string name="enter_2_button">2</string>
-    <string name="enter_3_button">3</string>
-    <string name="enter_4_button">4</string>
-    <string name="enter_5_button">5</string>
-    <string name="enter_6_button">6</string>
-    <string name="enter_7_button">7</string>
-    <string name="enter_8_button">8</string>
-    <string name="enter_9_button">9</string>
-    <string name="enter_0_button">0</string>
+
 </resources>
