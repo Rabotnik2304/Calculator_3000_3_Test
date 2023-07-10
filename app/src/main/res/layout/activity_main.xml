@@ -47,7 +47,7 @@
             android:layout_width="0dp"
             android:layout_height="108dp"
             android:layout_weight="0.25"
-            android:layout_marginRight="4dp"
+            android:layout_marginEnd="4dp"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="="
             android:onClick="onEnterTaskClick"
@@ -55,15 +55,16 @@
             app:cornerRadius="0dp"/>
     </TableRow>
 
-    <TableRow>
+    <TableRow android:layout_weight="1">
         <Button
             android:id="@+id/button_1"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="1"
+            android:textSize="20sp"
             android:onClick="onNumberClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
@@ -71,10 +72,11 @@
             android:id="@+id/button_2"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="2"
+            android:textSize="20sp"
             android:onClick="onNumberClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
@@ -82,10 +84,11 @@
             android:id="@+id/button_3"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="3"
+            android:textSize="20sp"
             android:onClick="onNumberClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
@@ -93,24 +96,26 @@
             android:id="@+id/button_plus"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorActionButtons"
             android:text="+"
+            android:textSize="24sp"
             android:onClick="onMathOperationClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
     </TableRow>
 
-    <TableRow>
+    <TableRow android:layout_weight="1">
         <Button
             android:id="@+id/button_4"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="4"
+            android:textSize="20sp"
             android:onClick="onNumberClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
@@ -118,10 +123,11 @@
             android:id="@+id/button_5"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="5"
+            android:textSize="20sp"
             android:onClick="onNumberClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
@@ -129,10 +135,11 @@
             android:id="@+id/button_6"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="6"
+            android:textSize="20sp"
             android:onClick="onNumberClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
@@ -140,46 +147,50 @@
             android:id="@+id/button_minus"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorActionButtons"
             android:text="-"
+            android:textSize="24sp"
             android:onClick="onMathOperationClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
     </TableRow>
 
-    <TableRow>
+    <TableRow android:layout_weight="1">
         <Button
             android:id="@+id/button_7"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="7"
             android:onClick="onNumberClick"
+            android:textSize="20sp"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
         <Button
             android:id="@+id/button_8"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="8"
             android:onClick="onNumberClick"
+            android:textSize="20sp"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
         <Button
             android:id="@+id/button_9"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="9"
+            android:textSize="20sp"
             android:onClick="onNumberClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
@@ -187,38 +198,38 @@
             android:id="@+id/button_multiply"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorActionButtons"
             android:text="*"
+            android:textSize="24sp"
             android:onClick="onMathOperationClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"/>
     </TableRow>
 
-    <TableRow
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+    <TableRow android:layout_weight="1">
         <Button
             android:id="@+id/button_DelAll"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorDelButtons"
             android:text="@string/enter_del_all_button"
             android:textColor="@color/colorText"
+            android:textSize="20sp"
             app:cornerRadius="0dp" />
 
         <Button
             android:id="@+id/button_0"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorEnterTaskButton"
             android:text="0"
+            android:textSize="20sp"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp"
             android:onClick="onNumberClick"/>
@@ -227,10 +238,11 @@
             android:id="@+id/button_Del"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorDelButtons"
             android:text="@string/enter_del_button"
+            android:textSize="20sp"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp" />
 
@@ -238,10 +250,11 @@
             android:id="@+id/button_div"
             style="@style/DefaultLayoutMarginStyle"
             android:layout_width="0dp"
-            android:layout_height="94dp"
+            android:layout_height="match_parent"
             android:layout_weight="0.25"
             android:backgroundTint="@color/colorActionButtons"
-            android:text=":"
+            android:text="/"
+            android:textSize="24sp"
             android:onClick="onMathOperationClick"
             android:textColor="@color/colorText"
             app:cornerRadius="0dp" />

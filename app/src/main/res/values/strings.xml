@@ -6,5 +6,5 @@
     <string name="enter_del_button">Del</string>
     <string name="enter_del_all_button">Del All</string>
 
-
+    <string name="answer_wrong_task">Your task is wrong</string>
 </resources>
